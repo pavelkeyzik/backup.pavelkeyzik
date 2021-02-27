@@ -29,7 +29,7 @@ const lightTheme = {
     profilePreviewShape3: '#ffae38',
     profilePreviewShape4: '#00d57e',
     footerTextForeground: colorTokens.gray[400],
-    technologiesListColor: '#ff1e3d',
+    technologiesListColor: colorTokens.gray[900],
   },
 };
 
