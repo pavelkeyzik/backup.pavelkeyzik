@@ -4,7 +4,6 @@ import Link from 'next/link';
 import styled from '@emotion/styled';
 import { Header } from '../components/Header';
 import { ToggleThemButton } from '../components/ToggleThemeButton';
-import { ContentWidth } from './ContentWidth';
 
 type LayoutProps = {
   children?: React.ReactNode;
@@ -29,9 +28,7 @@ function Layout(props: LayoutProps) {
           <ToggleThemButton />
         </Header.Item>
       </Header>
-      <main>
-        <ContentWidth>{props.children}</ContentWidth>
-      </main>
+      {props.children}
     </React.Fragment>
   );
 }

@@ -24,6 +24,10 @@ const lightTheme = {
     headerBackground: colorTokens.white,
     link: colorTokens.gray[800],
     linkHover: colorTokens.black,
+    profilePreviewShape1: '#0468ff',
+    profilePreviewShape2: '#ff1e3d',
+    profilePreviewShape3: '#ffae38',
+    profilePreviewShape4: '#00d57e',
   },
 };
 
@@ -35,6 +39,10 @@ const darkTheme = {
     headerBackground: colorTokens.black,
     link: colorTokens.gray[200],
     linkHover: colorTokens.white,
+    profilePreviewShape1: '#83b5ff',
+    profilePreviewShape2: '#ff9dab',
+    profilePreviewShape3: '#ffcd83',
+    profilePreviewShape4: '#d0ffec',
   },
 };
 

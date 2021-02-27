@@ -1,7 +1,12 @@
+import { ContentWidth } from '../components/ContentWidth';
 import { Layout } from '../components/Layout';
 
 function ContactPage() {
-  return <Layout>Contact Page</Layout>;
+  return (
+    <Layout>
+      <ContentWidth>Contact Page</ContentWidth>
+    </Layout>
+  );
 }
 
 export default ContactPage;
