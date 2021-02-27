@@ -4,6 +4,7 @@ import Link from 'next/link';
 import styled from '@emotion/styled';
 import { Header } from '../components/Header';
 import { ToggleThemButton } from '../components/ToggleThemeButton';
+import { Footer } from './Footer';
 
 type LayoutProps = {
   children?: React.ReactNode;
@@ -11,7 +12,13 @@ type LayoutProps = {
 
 function Layout(props: LayoutProps) {
   return (
-    <React.Fragment>
+    <div
+      style={{
+        display: 'flex',
+        flexDirection: 'column',
+        minHeight: '100vh',
+      }}
+    >
       <Head>
         <title>Pavel Keyzik's Personal Site</title>
       </Head>
@@ -28,8 +35,9 @@ function Layout(props: LayoutProps) {
           <ToggleThemButton />
         </Header.Item>
       </Header>
-      {props.children}
-    </React.Fragment>
+      <div style={{ flexGrow: 1 }}>{props.children}</div>
+      <Footer style={{ marginTop: 80 }} />
+    </div>
   );
 }
 

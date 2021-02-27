@@ -28,6 +28,8 @@ const lightTheme = {
     profilePreviewShape2: '#ff1e3d',
     profilePreviewShape3: '#ffae38',
     profilePreviewShape4: '#00d57e',
+    footerTextForeground: colorTokens.gray[400],
+    technologiesListColor: '#ff1e3d',
   },
 };
 
@@ -43,6 +45,8 @@ const darkTheme = {
     profilePreviewShape2: '#ff9dab',
     profilePreviewShape3: '#ffcd83',
     profilePreviewShape4: '#d0ffec',
+    footerTextForeground: colorTokens.gray[600],
+    technologiesListColor: '#ffcd83',
   },
 };
 
