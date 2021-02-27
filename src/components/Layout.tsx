@@ -28,7 +28,7 @@ function Layout(props: LayoutProps) {
         </Header.Item>
         <Header.Item>
           <Nav>
-            <Link href="/">Works</Link>
+            <Link href="/">Home</Link>
             <Link href="/about">About</Link>
             <Link href="/contact">Contact</Link>
           </Nav>
