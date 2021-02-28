@@ -37,6 +37,7 @@ function MyApp(props: MyAppProps) {
             padding: 0;
             font-family: Montserrat, sans-serif;
             font-size: 18px;
+            transition: background-color 0.2s;
           }
 
           a {

@@ -3,10 +3,14 @@ import { AvailableTheme, useTheme } from '../hooks/use-theme';
 import { MoonIcon } from './icons/MoonIcon';
 import { SunIcon } from './icons/SunIcon';
 
-function ToggleThemButton() {
+type ToggleThemeButtonProps = {
+  style?: React.CSSProperties;
+};
+
+function ToggleThemeButton(props: ToggleThemeButtonProps) {
   const theme = useTheme();
   return (
-    <RootButton onClick={theme.toggleTheme}>
+    <RootButton style={props.style} onClick={theme.toggleTheme}>
       {theme.currentTheme === AvailableTheme.light ? <MoonIcon /> : <SunIcon />}
     </RootButton>
   );
@@ -18,4 +22,4 @@ const RootButton = styled.button`
   color: ${(props) => props.theme.color.textForeground};
 `;
 
-export { ToggleThemButton };
+export { ToggleThemeButton };

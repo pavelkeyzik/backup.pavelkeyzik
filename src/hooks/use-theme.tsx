@@ -13,7 +13,7 @@ enum AvailableTheme {
   dark,
 }
 
-const defaultTheme = AvailableTheme.light;
+const defaultTheme = AvailableTheme.dark;
 
 const ThemeStateContext = createContext<AvailableTheme>(defaultTheme);
 const ThemeDispatchContext = createContext<DispatchAction>(() => {});
