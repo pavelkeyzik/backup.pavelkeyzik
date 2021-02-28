@@ -3,15 +3,19 @@ import {
   Dispatch,
   SetStateAction,
   useContext,
+  useEffect,
   useState,
 } from 'react';
+import { useMediaQuery } from 'react-responsive';
 
 enum AvailableTheme {
   light,
   dark,
 }
 
-const ThemeStateContext = createContext(AvailableTheme.light);
+const defaultTheme = AvailableTheme.light;
+
+const ThemeStateContext = createContext<AvailableTheme>(defaultTheme);
 const ThemeDispatchContext = createContext<DispatchAction>(() => {});
 
 type ThemeProviderProps = {
@@ -21,7 +25,18 @@ type ThemeProviderProps = {
 type DispatchAction = Dispatch<SetStateAction<AvailableTheme>>;
 
 function ThemeProvider(props: ThemeProviderProps) {
-  const [theme, setTheme] = useState<AvailableTheme>(AvailableTheme.dark);
+  const isPreferedLightTheme = useMediaQuery({
+    query: '(prefers-color-scheme: light)',
+  });
+  const [theme, setTheme] = useState<AvailableTheme>(defaultTheme);
+
+  useEffect(() => {
+    if (isPreferedLightTheme) {
+      setTheme(AvailableTheme.light);
+    } else {
+      setTheme(AvailableTheme.dark);
+    }
+  }, [isPreferedLightTheme]);
 
   return (
     <ThemeStateContext.Provider value={theme}>
