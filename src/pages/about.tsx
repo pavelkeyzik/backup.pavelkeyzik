@@ -18,6 +18,8 @@ function AboutPage() {
         </p>
         <h3>List of technologies that I use every single day:</h3>
         <ul>
+          <li>HTML</li>
+          <li>CSS</li>
           <li>React</li>
           <li>TypeScript</li>
           <li>Git</li>
