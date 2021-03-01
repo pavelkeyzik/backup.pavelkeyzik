@@ -31,6 +31,31 @@ function AboutPage() {
           <li>Gatsby.js</li>
           <li>GraphQL (Apollo)</li>
         </ul>
+        <h3>Education:</h3>
+        <ul>
+          <li>Bachelor's degree, Polotsk State University (2019)</li>
+          <li>Full-stack course, iTechArt (2018)</li>
+          <li>Front-end course, Andersen (2016)</li>
+          <li>HTML/CSS/Photoshop personal training, BelHard (2012)</li>
+        </ul>
+        <h3>My hobbies:</h3>
+        <p>
+          I'm keen on automotive photography. You can check my{' '}
+          <a href="https://unsplash.com/@pavelkeyzik" target="_blank">
+            Unsplash account
+          </a>{' '}
+          to see some of my pics. From time to time I try to make videos. It's
+          really interesting to me too because it's like photography but with
+          motions and music. You can see a couple of my videos{' '}
+          <a
+            href="https://www.youtube.com/channel/UCvuShrOlcCtLoJ7gEUwB0FA/videos"
+            target="_blank"
+          >
+            here
+          </a>
+          .
+        </p>
+        <h3>Still have some questions?</h3>
         <p>
           If you want to know more about me then please,{' '}
           <Link href="/contact">contact me</Link>.
