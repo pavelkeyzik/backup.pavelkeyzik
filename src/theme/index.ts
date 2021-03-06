@@ -20,7 +20,8 @@ const lightTheme = {
   color: {
     primary: colorTokens.black,
     background: colorTokens.gray[100],
-    textForeground: colorTokens.black,
+    textForeground: colorTokens.gray[700],
+    headingsForeground: colorTokens.black,
     headerBackground: 'transparent',
     link: colorTokens.gray[800],
     linkHover: colorTokens.black,
@@ -48,7 +49,8 @@ const darkTheme = {
   color: {
     primary: colorTokens.white,
     background: colorTokens.gray[900],
-    textForeground: colorTokens.white,
+    textForeground: colorTokens.gray[300],
+    headingsForeground: colorTokens.white,
     headerBackground: 'transparent',
     link: colorTokens.gray[200],
     linkHover: colorTokens.white,
