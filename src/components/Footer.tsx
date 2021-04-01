@@ -1,5 +1,6 @@
 import styled from '@emotion/styled';
 import { ContentWidth } from './ContentWidth';
+import { DribbbleIcon } from './icons/DribbbleIcon';
 import { GitHubIcon } from './icons/GitHubIcon';
 import { TwitterIcon } from './icons/TwitterIcon';
 
@@ -13,6 +14,10 @@ function Footer(props: FooterProps) {
       <ContentWidth>
         <FooterContent>
           <Nav>
+            <SocialLink href="https://dribbble.com/pavelkeyzik" target="_blank">
+              <DribbbleIcon />
+              Dribbble
+            </SocialLink>
             <SocialLink href="https://twitter.com/pavelkeyzik" target="_blank">
               <TwitterIcon />
               Twitter
