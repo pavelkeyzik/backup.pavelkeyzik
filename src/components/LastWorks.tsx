@@ -25,13 +25,12 @@ function LastWorks() {
           <TechnologiesList>HTML, CSS, Gulp</TechnologiesList>
         </Card>
         <Card>
-          <a
-            href="https://pavelkeyzik-just-for-fun.netlify.com"
-            target="_blank"
-          >
-            pavelkeyzik-just-for-fun.netlify.com
+          <a href="https://avipe.netlify.app" target="_blank">
+            avipe.netlify.app
           </a>
-          <TechnologiesList>React, TypeScript, Gatsby.js</TechnologiesList>
+          <TechnologiesList>
+            React, TypeScript, Ruby, PostgreSQL
+          </TechnologiesList>
         </Card>
         <Card>
           <a
