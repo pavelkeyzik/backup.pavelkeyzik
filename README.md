@@ -10,7 +10,7 @@
 
 ## About Me
 
-- 🌱 I’m currently learning Next.js
+- 🌱 I’m currently working on [AVIPE - Relaxation App](https://avipe.netlify.app/) (React, TypeScript, Ruby, AWS S3)
 - 😍 In love with Design Systems
 - 🧱 I use daily: React, TypeScript, HTML, CSS, Node.js
 - 📫 How to reach me: pavel.keyzik@gmail.com
