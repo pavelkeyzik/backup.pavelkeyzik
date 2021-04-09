@@ -1,5 +1,5 @@
 <h3 align="center">Hi 👋, I'm Pavel Keyzik</h3>
-<p align="center">Software Engineer at iTechArt in Minsk, Belarus</p>
+<p align="center">Software Engineer at [iTechArt](https://www.itechart.com/) in Minsk, Belarus</p>
 <p align="center">
   <a href="https://pavelkeyzik.com">Website</a> •
   <a href="https://twitter.com/pavelkeyzik">Twitter</a> •
