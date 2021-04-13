@@ -7,10 +7,12 @@ function LastWorks() {
       <h2>Last Works</h2>
       <CardsGrid>
         <Card>
-          <a href="https://subaruteambelarus.by" target="_blank">
-            subaruteambelarus.by
+          <a href="https://avipe.netlify.app" target="_blank">
+            avipe.netlify.app
           </a>
-          <TechnologiesList>React, TypeScript, Gatsby.js</TechnologiesList>
+          <TechnologiesList>
+            React, TypeScript, Ruby, PostgreSQL
+          </TechnologiesList>
         </Card>
         <Card>
           <a href="https://aibolit.com" target="_blank">
@@ -19,18 +21,16 @@ function LastWorks() {
           <TechnologiesList>React, TypeScript, Next.js</TechnologiesList>
         </Card>
         <Card>
+          <a href="https://subaruteambelarus.by" target="_blank">
+            subaruteambelarus.by
+          </a>
+          <TechnologiesList>React, TypeScript, Gatsby.js</TechnologiesList>
+        </Card>
+        <Card>
           <a href="https://pavelkeyzik.github.io" target="_blank">
             pavelkeyzik.github.io
           </a>
           <TechnologiesList>HTML, CSS, Gulp</TechnologiesList>
-        </Card>
-        <Card>
-          <a href="https://avipe.netlify.app" target="_blank">
-            avipe.netlify.app
-          </a>
-          <TechnologiesList>
-            React, TypeScript, Ruby, PostgreSQL
-          </TechnologiesList>
         </Card>
         <Card>
           <a
