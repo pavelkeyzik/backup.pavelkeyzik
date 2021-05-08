@@ -49,7 +49,7 @@ const RootInput = styled.input`
   border: 4px solid ${(props) => props.theme.color.inputBorder};
   outline: none;
   font-family: inherit;
-  font-size: 1rem;
+  font-size: 1em;
 
   :focus {
     border: 4px solid ${(props) => props.theme.color.inputBorderFocus};
@@ -70,7 +70,7 @@ const RootTextArea = styled.textarea`
   border: 4px solid ${(props) => props.theme.color.inputBorder};
   outline: none;
   font-family: inherit;
-  font-size: 1rem;
+  font-size: 1em;
   resize: none;
 
   :focus {
@@ -96,7 +96,7 @@ const FormControlLabel = styled.div`
 const FormControlError = styled.div`
   color: ${(props) => props.theme.color.errorMessage};
   margin-top: 8px;
-  font-size: 1rem;
+  font-size: 1em;
 `;
 
 export { FormControl, Input, TextArea };
