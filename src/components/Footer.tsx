@@ -52,8 +52,20 @@ const FooterContent = styled.div`
 `;
 
 const Nav = styled.nav`
-  & > * {
-    margin-left: 24px;
+  display: flex;
+  flex-direction: column;
+
+  & > *:not(:last-child) {
+    margin-bottom: 24px;
+  }
+
+  @media screen and (min-width: 600px) {
+    flex-direction: row;
+
+    & > *:not(:last-child) {
+      margin-right: 24px;
+      margin-bottom: 0;
+    }
   }
 `;
 

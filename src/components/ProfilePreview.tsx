@@ -47,8 +47,8 @@ function ProfilePreview() {
   return (
     <Root ref={ref} onMouseMove={updateIconsPosition}>
       <Content>
-        <h2>Hi! My name's Pavel</h2>
-        <span>I'm a Front-end Engineer since Sep 2018</span>
+        <h2>Hi! My name's Pavel Keyzik</h2>
+        <span>Front-end Engineer since Sep 2018</span>
         <animated.div
           style={{
             position: 'absolute',
