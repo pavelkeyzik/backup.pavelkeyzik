@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  background: black;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+h1 {
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+b {
+  font-weight: bold;
+}
+
+button {
+  font-family: inherit;
+  font-size: 1em;
+  border: none;
+}
