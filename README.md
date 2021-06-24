@@ -12,7 +12,7 @@
 
 - 🌱 I’m currently working on [AVIPE - Relaxation App](https://avipe.netlify.app/) (React, TypeScript, Ruby, AWS S3)
 - 😍 In love with Design Systems
-- 🧱 I use daily: React, TypeScript, HTML, CSS, Node.js
+- 🧱 I use daily: React, TypeScript, HTML, CSS
 - 📫 How to reach me: pavel.keyzik@gmail.com
 - 😄 Pronouns: He/Him
 - ⚡ Fun fact: I'm keen on automotive photography. You can check my [Unsplash account](https://unsplash.com/@pavelkeyzik).
