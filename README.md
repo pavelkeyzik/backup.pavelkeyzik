@@ -10,7 +10,7 @@
 
 ## About Me
 
-- 🌱 I’m currently working on [AVIPE - Relaxation App](https://avipe.netlify.app/) (React, TypeScript, Ruby, AWS S3)
+- 🌱 I’m currently working on personal blog using GitHub's Design System (Next.js, TypeScript, Primer)
 - 😍 In love with Design Systems
 - 🧱 I use daily: React, TypeScript, HTML, CSS
 - 📫 How to reach me: pavel.keyzik@gmail.com
