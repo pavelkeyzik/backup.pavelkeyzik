@@ -61,6 +61,11 @@ function Layout(props: LayoutProps) {
                       Home
                     </ActiveLinkMobile>
                     <ActiveLinkMobile
+                      href="https://blog.pavelkeyzik.com"
+                    >
+                      Blog
+                    </ActiveLinkMobile>
+                    <ActiveLinkMobile
                       isActive={route.pathname === '/about'}
                       href="/about"
                     >
@@ -81,6 +86,11 @@ function Layout(props: LayoutProps) {
               <Nav>
                 <ActiveLinkDesktop isActive={route.pathname === '/'} href="/">
                   Home
+                </ActiveLinkDesktop>
+                <ActiveLinkDesktop
+                  href="https://blog.pavelkeyzik.com"
+                >
+                  Blog
                 </ActiveLinkDesktop>
                 <ActiveLinkDesktop
                   isActive={route.pathname === '/about'}
