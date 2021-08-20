@@ -10,7 +10,7 @@
 
 ## About Me
 
-- 🌱 I’m currently working on [Personal blog](http://blog.pavelkeyzik.com) using GitHub's Design System (Next.js, TypeScript, Primer)
+- 🌱 I’m currently working on my own Design System.
 - 😍 In love with Design Systems
 - 🧱 I use daily: React, TypeScript, HTML, CSS
 - 📫 How to reach me: pavel.keyzik@gmail.com
