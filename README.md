@@ -10,7 +10,7 @@
 
 ## About Me
 
-- 🌱 I’m currently working on my own Design System.
+- 🌱 I’m currently working on my own Design System - [TeepUI](https://github.com/TeepUI/design-system).
 - 😍 In love with Design Systems
 - 🧱 I use daily: React, TypeScript, HTML, CSS
 - 📫 How to reach me: pavel.keyzik@gmail.com
